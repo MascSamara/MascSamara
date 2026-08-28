@@ -1,7 +1,122 @@
-## Hi there 👋
+<svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ec7"/>
+      <stop offset="100%" stop-color="#4dd8e6"/>
+    </linearGradient>
 
-<!--
-**MascSamara/MascSamara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#22262f" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .bg { fill: #0b0e14; }
+      .mono {
+        font-family: 'Courier New', 'Fira Code', monospace;
+        fill: #8b949e;
+        font-size: 15px;
+      }
+      .name {
+        font-family: 'Courier New', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 36px;
+        fill: url(#nameGrad);
+      }
+      .bracket { fill: #ff6ec7; font-family: monospace; font-size: 30px; }
+      .cursor { fill: #4dd8e6; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="500" height="150" rx="14"/>
+  <rect width="500" height="150" rx="14" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- borda com brilho sutil -->
+  <rect x="1" y="1" width="498" height="148" rx="14" fill="none" stroke="#ff6ec7" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- prompt estilo terminal -->
+  <text x="30" y="45" class="mono">const developer = {</text>
+
+  <!-- nome com colchete decorativo -->
+  <text x="30" y="90" class="bracket">&lt;</text>
+  <text x="52" y="90" class="name">Samara</text>
+  <text x="230" y="90" class="bracket">/&gt;</text>
+
+  <!-- cursor piscando -->
+  <rect x="285" y="72" width="10" height="24" class="cursor">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="30" y="120" class="mono">status: "aprendendo, construindo, evoluindo"</text>
+
+  <!-- mão acenando -->
+  <g transform="translate(445,55)">
+    <text font-size="46">
+      👋
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="0 20 40; 18 20 40; 0 20 40; 18 20 40; 0 20 40"
+        keyTimes="0; 0.2; 0.4; 0.6; 1"
+        dur="1.6s"
+        repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- linha de circuito decorativa -->
+  <path d="M 30 130 L 470 130" stroke="#4dd8e6" stroke-width="1.5" stroke-opacity="0.6" stroke-dasharray="4,4">
+    <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+</svg>
+
+## 👩‍💻 Sobre mim
+
+Estudante de Engenharia de Software, em formação como **Full Stack Developer**.
+
+Hoje trabalho principalmente com **Python**, e uso **HTML**, **CSS** e **SQL** no dia a dia de estudo e projetos. Estou construindo minha base full stack  front, back e banco de dados  passo a passo, com prática real.
+
+🎯 **Objetivo de carreira:** migrar para o ecossistema **Web3**  atuando com **Smart Contracts** e **DeFi**.
+
+Esse perfil é o meu registro público de evolução, cada commit aqui é parte da jornada, não uma vitrine.
+
+<br>
+
+## 🛠️ Stack
+
+### Atual
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Trilha de Aprendizado
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![DeFi](https://img.shields.io/badge/DeFi-000000?style=for-the-badge&logo=ethereum&logoColor=white)
+
+<br>
+
+## 🚀 Projetos
+
+### 🔧 Laboratório de Aprendizagem
+Repositório onde documento minha evolução prática em full stack estudos organizados por tecnologia (HTML/CSS, Python) e projetos aplicados.
+
+[![Repo](https://img.shields.io/badge/GitHub-learning--lab-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MascSamara/learning-lab)
+
+---
+
+### 🌐 Projeto Web 2026
+Site em desenvolvimento dentro do learning-lab, com estrutura própria de front-end (HTML, CSS, assets, fontes). Em construção: integração com JavaScript.
+
+[![Ver projeto](https://img.shields.io/badge/Ver_projeto-Projeto__Web__2026-2f6feb?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/MascSamara/learning-lab/tree/main/projetos/Projeto_web_2026)
+
+<br>
+
+## 📬 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samaramascarenhas/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/figmasck/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:figueirasamara9@gmail.com)<!--
+**MascSamara/MascSamara** is a special  repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
