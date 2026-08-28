@@ -1,10 +1,4 @@
 <div align="center">
-  <img src="./wave-greeting.svg" alt="Olá, eu sou Samara" width="100%" />
-</div>
-
-<br>
-
-<div align="center">
   <img src="./hero.svg" alt="Samara Mascarenhas — Personal Developer Interface" width="100%" />
 </div>
 
