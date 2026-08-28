@@ -1,10 +1,22 @@
+<div align="center">
+  <img src="./wave-greeting.svg" alt="Olá, eu sou Samara" width="100%" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./hero.svg" alt="Samara Mascarenhas — Personal Developer Interface" width="100%" />
+</div>
+
+<br>
+
 ## 👩‍💻 Sobre mim
 
 Estudante de Engenharia de Software, em formação como **Full Stack Developer**.
 
-Hoje trabalho principalmente com **Python**, e uso **HTML**, **CSS** e **SQL** no dia a dia de estudo e projetos. Estou construindo minha base full stack  front, back e banco de dados  passo a passo, com prática real.
+Hoje trabalho principalmente com **Python**, e uso **HTML**, **CSS** e **SQL** no dia a dia de estudo e projetos. Estou construindo minha base full stack — front, back e banco de dados passo a passo, com prática real.
 
-🎯 **Objetivo de carreira:** migrar para o ecossistema **Web3**  atuando com **Smart Contracts** e **DeFi**.
+🎯 **Objetivo de carreira:** migrar para o ecossistema **Web3** atuando com **Smart Contracts** e **DeFi**.
 
 Esse perfil é o meu registro público de evolução, cada commit aqui é parte da jornada, não uma vitrine.
 
@@ -35,7 +47,7 @@ Repositório onde documento minha evolução prática em full stack estudos orga
 ---
 
 ### 🌐 Projeto Web 2026
-Site em desenvolvimento dentro do learning-lab, com estrutura própria de front-end (HTML, CSS, assets, fontes). Em construção: integração com JavaScript.
+Site em desenvolvimento dentro do learning-lab, com estrutura própria de front-end (HTML, CSS, assets, fontes). Em construção, integração com JavaScript.
 
 [![Ver projeto](https://img.shields.io/badge/Ver_projeto-Projeto__Web__2026-2f6feb?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/MascSamara/learning-lab/tree/main/projetos/Projeto_web_2026)
 
