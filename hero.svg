@@ -1,0 +1,70 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ec7"/>
+      <stop offset="100%" stop-color="#4dd8e6"/>
+    </linearGradient>
+
+    <pattern id="heroGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1c2129" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .bg { fill: #0b0e14; }
+      .name {
+        font-family: 'Courier New', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 46px;
+        fill: url(#titleGrad);
+      }
+      .role {
+        font-family: 'Segoe UI', system-ui, sans-serif;
+        font-size: 18px;
+        fill: #c9d1d9;
+      }
+      .areas {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #4dd8e6;
+      }
+      .tagline {
+        font-family: 'Segoe UI', system-ui, sans-serif;
+        font-style: italic;
+        font-size: 14px;
+        fill: #8b949e;
+      }
+      .bracket { fill: #ff6ec7; font-family: monospace; font-size: 34px; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="900" height="260" rx="16"/>
+  <rect width="900" height="260" rx="16" fill="url(#heroGrid)" opacity="0.5"/>
+  <rect x="1" y="1" width="898" height="258" rx="16" fill="none" stroke="#ff6ec7" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Nome estilo código -->
+  <text x="60" y="95" class="bracket">&lt;</text>
+  <text x="82" y="95" class="name">Samara Mascarenhas</text>
+  <text x="565" y="95" class="bracket">/&gt;</text>
+
+  <!-- Cursor piscando ao final do nome -->
+  <rect x="600" y="72" width="12" height="28" fill="#4dd8e6">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Cargo -->
+  <text x="60" y="135" class="role">Software Engineering Student</text>
+
+  <!-- Áreas -->
+  <text x="60" y="170" class="areas">
+    Software × Blockchain × Web3 × DeFi × Finance
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Linha de circuito animada -->
+  <path d="M 60 195 L 840 195" stroke="#4dd8e6" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Tagline -->
+  <text x="60" y="225" class="tagline">"Building the future, one line of code at a time."</text>
+</svg>
